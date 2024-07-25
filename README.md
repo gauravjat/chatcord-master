@@ -1,8 +1,8 @@
-# Trading Web App
+# Alpha Trade AI’s
 
 ## Overview
 
-A Node.js-based trading web app designed for internal use. This application provides real-time trading data, user authentication, and market analysis tools.
+Alpha Trade AI transforms trading by making advanced tools accessible to all. Our mission is to empower traders of all levels, while our vision aims to democratize opportunities. We’re dedicated to enhancing lives and fostering future finance talent.
 
 ## Features
 
@@ -16,7 +16,6 @@ A Node.js-based trading web app designed for internal use. This application prov
 - **Node.js**: Server-side runtime.
 - **Express.js**: Web framework.
 - **MongoDB**: Database.
-- **React**: Frontend framework.
 - **Socket.io**: Real-time communication.
 - **Nunjucks**: Templating engine.
 
@@ -28,3 +27,5 @@ To get started, clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/yourusername/trading-web-app.git
+
+### 2. Clone the Repository
