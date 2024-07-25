@@ -22,10 +22,8 @@ Alpha Trade AI transforms trading by making advanced tools accessible to all. Ou
 ## Setup
 
 ### 1. Clone the Repository
-
 To get started, clone the repository to your local machine:
 
-```bash
 git clone https://github.com/yourusername/trading-web-app.git
+### ggg
 
-### 2. Clone the Repository
