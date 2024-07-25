@@ -57,3 +57,9 @@ npm install -g nodemon
 http://localhost:3000
 ```
 ### 7. Install Dependencies
+
+## Usage
+
+  * Register a new account or login to an existing account.
+  * Navigate through the dashboard to view real-time market data and execute trades.
+  * Use the market analysis tools to make informed trading decisions.
