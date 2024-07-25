@@ -27,5 +27,33 @@ To get started, clone the repository to your local machine:
 ```console
 $  git clone https://github.com/yourusername/trading-web-app.gits
 ```
-### ggg
+### 2. Navigate to the Project Directory
+Change into the project directory:
 
+```console
+cd trading-web-app
+```
+
+### 3. Install Dependencies
+
+```console
+npm install
+```
+
+### 4. Create a .env File
+Create a .env file in the root directory of the project and add the following environment variables:
+```console
+MONGO_URI=mongodb://localhost:27017/trading-app
+PORT=3000
+SECRET_KEY=your_secret_key
+```
+### 5. running the application locally
+install the nodemon
+```consolw
+npm install -g nodemon
+```
+### 6. Access the App
+``` console
+http://localhost:3000
+```
+### 7. Install Dependencies
