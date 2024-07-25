@@ -43,9 +43,16 @@ npm install
 ### 4. Create a .env File
 Create a .env file in the root directory of the project and add the following environment variables:
 ```console
-MONGO_URI=mongodb://localhost:27017/trading-app
-PORT=3000
-SECRET_KEY=your_secret_key
+PORT=1009
+DB_URL="mongodb://alphatrade_ai:YVEzFDHz@172.31.1.241:27273/alphatrade_ai"
+BASE_URL="https://alphatradeai.com/"
+NUNJUCKS_WATCHER=true
+COINBASE_KEY="afd871cc-60be-48dd-8205-3783ff38b5a5"
+GPT_KEY="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"
+WEBHOOK_SECRETE=whsec_485888f1b269add17ed256d1b03d5d5c260c40142ec80727bd0c0a8ca4f968b5
+Binance_url="https://testnet.binancefuture.com/"
+CoinBase_webhook_secrete="34124c63-da51-4eb9-8195-92b19c3662c4"
+USE_TESTNET=true
 ```
 ### 5. running the application locally
 install the nodemon
