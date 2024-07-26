@@ -53,6 +53,8 @@ WEBHOOK_SECRETE=whsec_485888f1b269add17ed256d1b03d5d5c260c40142ec80727bd0c0a8ca4
 Binance_url="https://testnet.binancefuture.com/"
 CoinBase_webhook_secrete="34124c63-da51-4eb9-8195-92b19c3662c4"
 USE_TESTNET=true
+STRIPE_PUBLISHABLE_KEY="pk_live_51NR0DCIS7JLvoYKmKYCsESDrpyx1RgkenVjEQSW6fEPRd3OT8MdM9Ex6fJAPyQgtogtUdC9ezioBLdVCvbgmXTYV005MrMmFWH"
+STRIPE_SECRET_KEY=""
 ```
 ### 5. running the application locally
 install the nodemon
@@ -63,7 +65,17 @@ npm install -g nodemon
 ``` console
 http://localhost:3000
 ```
-### 7. Install Dependencies
+### 7. Using PM2
+PM2 is a process manager for Node.js applications. It allows you to keep your app alive, reload it without downtime, and manage logs.
+Install PM2 globally:
+``` console
+npm install -g pm2
+```
+
+for running the app using pm2
+``` console
+npm run start
+```
 
 ## Usage
 
